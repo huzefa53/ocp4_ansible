@@ -26,6 +26,10 @@ bootstrap:
   name: "bootstrap"                        #hostname (WITHOUT the fqdn) of the bootstrap node 
   ipaddr: "192.168.122.11"                 #IP address that you want set for bootstrap node
   macaddr: "52:54:00:24:e6:f1"             #The mac address for dhcp reservation
+bootstrap2:
+  name: "bootstrap2"                        #hostname (WITHOUT the fqdn) of the bootstrap node 
+  ipaddr: "192.168.122.24"                 #IP address that you want set for bootstrap node
+  macaddr: "52:54:00:fa:d3:4f"             #The mac address for dhcp reservation  
 masters:
   - name: "master01"                       #hostname (WITHOUT the fqdn) of the master node (x of 3)
     ipaddr: "192.168.122.12"               #The IP address (x of 3) that you want set
